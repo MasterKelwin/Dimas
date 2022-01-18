@@ -1,5 +1,46 @@
 header {
-    height: 50px;
+    height: 10vh;
     width: auto;
-    padding: 5%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background: url(assets/bg.jpg);
+}
+
+.logoDimas {
+    height: 50px;
+    border: 5px solid #000;
+    border-radius: 10px;
+    background: #000;
+}
+
+main {
+    height: calc(100vh - 10vh);
+    padding: 2%;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.frenteEncarte {
+    height: calc(100vh - 300px);
+}
+
+.frenteEncarte:hover {
+    height: calc(100vh - 150px);
+    transition: 1s;
+}
+
+.versoEncarte {
+    height: calc(100vh - 300px);
+}
+
+.versoEncarte:hover {
+    height: calc(100vh - 150px);
+    transition: 1s;
 }
